@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "source": "demo",
+  "interfaces": [
+    {"index": 1, "name": "demo0", "oper_state": "up", "addresses": [{"address": "192.0.2.10", "prefix_len": 24}], "owner": null},
+    {"index": 2, "name": "demo1", "oper_state": "down", "addresses": [], "owner": null}
+  ],
+  "backends": [
+    {"backend": "NetworkManager", "runtime_directory_present": false, "limitation": "Synthetic evidence; ownership unknown"},
+    {"backend": "systemd-networkd", "runtime_directory_present": false, "limitation": "Synthetic evidence; ownership unknown"}
+  ]
+}

@@ -1,0 +1,16 @@
+[package]
+name = "nicco"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Read-only Linux network status CLI and TUI"
+
+[dependencies]
+nicco-core = { path = "../nicco-core" }
+clap = { version = "=4.5.51", features = ["derive"] }
+ratatui = "=0.29.0"
+crossterm = "=0.28.1"
+tokio.workspace = true
+serde_json.workspace = true
